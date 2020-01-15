@@ -63,6 +63,12 @@ footer {
     background-color: honeydew;
   }
 
+  .col-3#column-1,
+  .col-3#column-2  {
+    /* width: 33.3%; */
+    width: 50%;
+  }
+
   #column-1 {
     background-color: peachpuff;
   }
@@ -86,6 +92,17 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: moccasin;
+  }
+
+  .col-3  {
+    /* width: 33.3%; */
+  }
+
+  .col-3#column-1,
+  .col-3#column-2,
+  .col-3#column-3  {
+    /* width: 33.3%; */
+    width: 33.3%;
   }
 
   #column-1 {
